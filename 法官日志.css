@@ -1,0 +1,133 @@
+html {
+    font-size: 62.5%;
+    height: 100%;
+}
+body {
+    display: -webkit-flex;
+    display: flex;
+    margin: 0;
+    height: 100%;
+    flex-direction: column;
+    overflow: hidden;
+}
+header {
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 5rem;
+    text-align: center;
+    padding: 0 2rem;
+    background: #29bde0;
+    color: #fff;
+    font-size: 1.7rem;
+}
+.tip {
+    width: 100%;
+    height: 4rem;
+    background: #b9e9f5;
+    position: relative;
+    line-height: 4rem;
+    padding: 0 3rem;
+}
+.tip img {
+    float: right;
+    position: relative;
+    top: 50%;
+    margin-top: -1.3rem;
+}
+.tri{
+    width: 0;
+    height: 0;
+    position: absolute;
+    top:4rem;
+    left: 10%;
+    border-top: 1.8rem solid #b9e9f5;
+    border-right: 0.9rem solid transparent;
+    border-left: 0.9rem solid transparent;
+}
+main {
+    flex: 1;
+    background: #29bde0;
+    overflow-y: scroll;
+}
+p {
+    margin: 2rem ;
+}
+.container{
+    padding: 2rem;
+}
+.box {
+    height: 7rem;
+    width: 7rem;
+    margin: 0 auto;
+    border: 0.5rem solid #FFFFFF;
+    box-sizing: content-box;!important;
+    text-align: center;
+}
+.top {
+    background: #f5c97b;
+    height: 5rem;
+    line-height: 5rem;
+}
+.bottom {
+    background: #83b09a;
+    height: 2rem;
+    line-height: 2rem;
+}
+.col-xs-4 {
+    padding: 0;
+}
+ul {
+    padding: 1rem 0 0;
+    margin: 0;
+}
+li {
+    display: inline-block;
+    width: 1.4rem;
+    height: 1.4rem;
+}
+.sec {
+    display: none;
+}
+.box:hover .sec{
+    display: block;
+}
+.ctn-1 {
+    background-image: url("img/img.png");
+    background-color: #FFFFFF;
+    background-position: -0.5rem -0.25rem;
+}
+.ctn-2 {
+    background-image: url("img/img.png");
+    background-position: -2.2rem -0.2rem;
+    background-color: #FFFFFF;
+}
+.ctn-3 {
+    background-image: url("img/img.png");
+    background-position: -4rem -0.25rem;
+    background-color: #FFFFFF;
+}
+.ctn-4 {
+    background-image: url("img/img.png");
+    background-position: -5.9rem -0.25rem;
+    background-color: #FFFFFF;
+}
+footer {
+    height: 10rem;
+    background: #29bde0;
+}
+footer div{
+    width: 70%;
+    height: 6rem;
+    background: orange;
+    margin: 2rem auto 0;
+    text-align: center;
+    line-height: 6rem;
+}
+a:hover {
+    text-decoration: none;
+}
+
+

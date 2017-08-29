@@ -1,0 +1,112 @@
+html {
+    font-size: 62.5%;
+    height: 100%;
+}
+body {
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+}
+header {
+    position: fixed;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5rem;
+    text-align: center;
+    padding: 0 2rem;
+    width: 100%;
+    box-sizing: border-box;
+    background: #29bde0;
+    color: #fff;
+    font-size: 1.7rem;
+}
+main {
+    position: relative;
+    top: 5rem;
+    overflow-y: scroll;
+    height:calc(100% - 14rem);
+    margin-bottom: 9rem;
+}
+.msg1 {
+    padding: 3rem 3rem;
+    text-align: center;
+    font-size: 1.6rem;
+    color: orange;
+    background: #29bde0;
+}
+.msg2 {
+    padding: 1rem 3rem;
+    font-size: 1.6rem;
+    background: #29bde0;
+}
+.msg2 p{
+    margin: 1rem 0;
+}
+.msg2 p span{
+    display: inline-block;
+    margin-right: 2rem;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+    border-bottom: 0.1rem solid;
+    padding: 0 3rem;
+}
+h4 {
+    font-size: 1.5rem;
+}
+h4 span {
+    float: right;
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+li p {
+    font-size: 1.5rem;
+}
+.msg3 div{
+    display: inline-block;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    background-color: rgba(41,189,224,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10rem;
+    text-align: center;
+    box-sizing: border-box;
+}
+footer div {
+    display: inline-block;
+    width: 35%;
+    height: 7rem;
+    line-height: 7rem;
+    font-size: 2rem;
+    border-radius: 0.5rem;
+}
+.left {
+    background-color: red;
+    width: 100%;
+    color: #000000;
+}
+.right {
+    background: orange;
+    margin-left: 2rem;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+
+
+
+

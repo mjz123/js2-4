@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>参数设置</title>
+    <link rel="stylesheet" href="参数设置.css">
+    <meta name="viewport" content="width=device-width initial-scale=1">
+</head>
+<body>
+    <header>
+        <span><img src="img/back.png"></span>
+
+    </header>
+    <main>
+        <div class="top">
+            <h4>玩家配比</h4>
+            <div class="top-right">
+                <ul id="mylist">
+                </ul>
+                <button id="set">点击设置</button>
+            </div>
+        </div>
+        <div class="bottom">
+            <span></span>
+            <div>
+                <label for="num">
+                    玩家人数
+                </label>
+                <input type="number" name="person" id="num" class="a" value="4">
+                人
+                <div class="slider">
+                    <button id="btn1">
+                        <img src="img/minus.png">
+                    </button>
+                    <label for="slider"></label>
+                    <input type="range" id="slider" min="4" max="18" step="1" value="4">
+                    <button id="btn2">
+                        <img src="img/plus.png">
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="next">
+            <button id="btn3">发牌</button>
+        </div>
+    </main>
+    <script src="参数设置.js"></script>
+</body>
+</html>
