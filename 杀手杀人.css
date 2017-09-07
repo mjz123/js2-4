@@ -58,15 +58,14 @@ main {
 }
 p {
     margin: 2rem ;
-    background: #29bde0;
 }
 .container{
     padding: 2rem;
 }
 
 .row {
-   /*width: 33%;*/
-   padding: 2rem 0;
+    /*width: 33%;*/
+    padding: 2rem 0;
 }
 .box {
     height: 7rem;
@@ -129,5 +128,8 @@ a{
     color: #fff;
     font-size: 2rem;
 }
+/*.top:hover{*/
+    /*background: red;*/
+/*}*/
 
 

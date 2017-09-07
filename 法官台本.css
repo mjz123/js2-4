@@ -1,0 +1,44 @@
+html {
+    font-size: 62.5%;
+    height: 100%;
+}
+body {
+    display: -webkit-flex;
+    display: flex;
+    margin: 0;
+    height: 100%;
+    flex-direction: column;
+    overflow: hidden;
+    background: #f0f0f0;
+}
+header {
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 5rem;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 0 2rem;
+    background: #29bde0;
+    color: #fff;
+    font-size: 1.7rem;
+}
+main {
+    font-size: 2rem;
+    text-align: center;
+}
+main div {
+    width: 70%;
+    margin: 2rem auto;
+    background: #fff;
+}
+.operate button{
+    width: 100%;
+    height: 3rem;
+    background: #24a7c6;
+}
+
+
+

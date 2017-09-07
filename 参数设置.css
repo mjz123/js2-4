@@ -1,6 +1,7 @@
 html {
     font-size: 62.5%;
     height: 100%;
+
 }
 body {
     margin: 0;
@@ -17,27 +18,39 @@ header img {
     margin-left: 3%;
 }
 main h4 {
+    margin: 0;
     writing-mode: vertical-rl;
     display: inline-block;
     text-align: center;
     border-right: 1px solid;
-    padding-right: 1rem;
+    padding: 1rem;
 }
 .top {
     display: flex;
     height: 20rem;
     margin: 1rem;
     background: #fff;
+
 }
 .top div{
     flex: 1;
 }
+.top-right {
+    position: relative;
+}
+
 ul {
     display: flex;
     flex-wrap: wrap;
 }
 li {
     width: 50%;
+}
+#set {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    /*border: 0;*/
 }
 .bottom {
     margin: 1rem;
